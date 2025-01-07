@@ -1,0 +1,111 @@
+.opening-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #title {
+    font-size: 5em;
+    text-align: center;
+    line-height: 0px;
+    font-family:monoton;
+  }
+  .subtitle {
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    font-family: Arvo;
+    
+    
+  }
+  #img-div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #figure {
+    width: 60%;
+  }
+  #image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    border-radius: 40px;
+    margin: auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    
+  }
+  #img-caption {
+    text-align: center;
+    line-height: 50px;
+    font-size: 12px;
+    font-family:georgia;
+  }
+  #tribute-info {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    float: right;
+    font-family: Zilla Slab;
+    font-size: 20px;
+    background-color: #becee8;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  #main{
+    background: #f5f4f0;
+    text-align: justify;
+  }
+  article {
+    width: 600px;
+    border-color: black;
+    border-width: 5px;
+    border-style: double;
+    border-radius: 40px;
+    margin: 100px auto 40px auto;
+    padding: 40px;
+    font-family: Anaheim;
+    background: #e4e6eb;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    
+  }
+  #more-info {
+    text-align: center;
+    padding: 50px;
+    font-family: courier;
+  }
+  a:hover {
+    color: red;
+  }
+  #image:hover {
+    transform: scale(1.05);
+    
+  }
+  #tribute-info:hover {
+    transform: scale(1.1);
+  }
+  article:hover {
+    transform: scale(1.05);
+  }
+  @media (max-width: 900px) {
+    #img-div {
+      flex-direction: column;
+    }
+    article {
+      margin: 10px;
+      width: 80%;
+    }
+    #figure {
+      width: 100%;
+    }
+    #tribute-info {
+      width: 80%;
+      margin: 10px;
+    }
+    #tribute-info:hover {
+      transform: scale(1.0);
+    }
+    article:hover {
+      transform: scale(1.0);
+      
+    }
+  }
