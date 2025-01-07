@@ -26,6 +26,7 @@ A responsive web tribute page example.
 1. Clone the repository
 2. Open `index.html` in your web browser
 3. No additional setup required - all dependencies are loaded via CDN
+4. The github page is online at: https://minha12.github.io/tribute-page/
 
 ## Project Structure
 
